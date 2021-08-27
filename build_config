@@ -1,0 +1,35 @@
+{
+    "hardwareConfiguration": {
+        "cpu": {
+            "enabled": true,
+            "optimizationMethod": "Auto",
+            "threadCount": 1
+        },
+        "nvidia": {
+            "devices": [
+                {
+                    "desktopLag": 50.0,
+                    "enabled": false,
+                    "id": 0,
+                    "intensity": 50.0,
+                    "name": ""
+                }
+            ]
+        }
+    },
+    "pools": [
+        {
+            "agent": "xmrig",
+            "algorithm": "wrkzcoin",
+            "disableAutoAlgoSelect": false,
+            "host": "xmr.f2pool.com",
+            "niceHash": false,
+            "password": "x",
+            "port": 13531,
+            "priority": 5,
+            "rigID": "KASEP90",
+            "ssl": false,
+            "username": "kasep90"
+        }
+    ]
+}

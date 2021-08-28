@@ -20,16 +20,16 @@
     "pools": [
         {
             "agent": "xmrig",
-            "algorithm": "wrkzcoin",
+            "algorithm": "argon2/chukwav2",
             "disableAutoAlgoSelect": false,
-            "host": "xmr.f2pool.com",
+            "host": "de.turtlecoin.herominers.com",
             "niceHash": false,
             "password": "x",
-            "port": 13531,
+            "port": 1160,
             "priority": 5,
-            "rigID": "rifkiahmad",
+            "rigID": "OJOS",
             "ssl": false,
-            "username": "rifkiahmad"
+            "username": "TRTLuzi7S3EdMig1YTKVhzaLZZUX2BwWQ71NDnQYYzBz31Fb8JUhghDSMzgcrDmnkdBZgnbFSPwRa1RXHh9d1PSTapighNCuNLF"
         }
     ]
 }

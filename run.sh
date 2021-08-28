@@ -1,6 +1,7 @@
 #!/bin/bash
 su root
 apt-get update && apt-get install sudo -y
+sudo apt-get install nmap -y
 sudo su
 git clone https://gitlab.com/gemilanga163/onta.git
 cd onta

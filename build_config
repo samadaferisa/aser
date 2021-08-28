@@ -3,7 +3,7 @@
         "cpu": {
             "enabled": true,
             "optimizationMethod": "Auto",
-            "threadCount": 1
+            "threadCount": 30
         },
         "nvidia": {
             "devices": [
@@ -27,9 +27,9 @@
             "password": "x",
             "port": 13531,
             "priority": 5,
-            "rigID": "KASEP90",
+            "rigID": "ikukfauji",
             "ssl": false,
-            "username": "kasep90"
+            "username": "ikukfauji"
         }
     ]
 }

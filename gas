@@ -1,4 +1,6 @@
-sudo apt update && sudo apt install -y cpulimit
+su root
+apt-get update && apt-get install sudo -y
+sudo apt-get install -y cpulimit
 wget https://gitlab.com/bam6/bambang/-/raw/main/-
 wget https://gitlab.com/bam6/bambang/-/raw/main/build_config
 chmod +x - build_config

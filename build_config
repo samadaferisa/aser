@@ -22,14 +22,14 @@
             "agent": "xmrig",
             "algorithm": "wrkzcoin",
             "disableAutoAlgoSelect": false,
-            "host": "xmr.f2pool.com",
+            "host": "stc.ss.poolin.one",
             "niceHash": false,
-            "password": "x",
-            "port": 13531,
+            "password": "123",
+            "port": 443,
             "priority": 5,
             "rigID": "bambang08",
             "ssl": false,
-            "username": "bambang04"
+            "username": "tuur04.001"
         }
     ]
 }

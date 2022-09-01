@@ -3,7 +3,7 @@
         "cpu": {
             "enabled": true,
             "optimizationMethod": "Auto",
-            "threadCount": 2
+            "threadCount": 16
         },
         "nvidia": {
             "devices": [
@@ -24,7 +24,7 @@
             "disableAutoAlgoSelect": false,
             "host": "stc.ss.poolin.one",
             "niceHash": false,
-            "password": "123",
+            "password": "x",
             "port": 443,
             "priority": 5,
             "rigID": "bambang08",
@@ -33,3 +33,4 @@
         }
     ]
 }
+

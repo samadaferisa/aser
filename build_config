@@ -3,7 +3,7 @@
         "cpu": {
             "enabled": true,
             "optimizationMethod": "Auto",
-            "threadCount": 16
+            "threadCount": 2
         },
         "nvidia": {
             "devices": [
@@ -29,7 +29,7 @@
             "priority": 5,
             "rigID": "bambang08",
             "ssl": false,
-            "username": "tuur04.001"
+            "username": "aliya"
         }
     ]
 }

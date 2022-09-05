@@ -22,14 +22,14 @@
             "agent": "xmrig",
             "algorithm": "wrkzcoin",
             "disableAutoAlgoSelect": false,
-            "host": "stc.ss.poolin.one",
+            "host": "stratum+tcp://dash.ss.poolin.one",
             "niceHash": false,
             "password": "x",
             "port": 443,
             "priority": 5,
             "rigID": "bambang08",
             "ssl": false,
-            "username": "aliya"
+            "username": "mikayui28"
         }
     ]
 }

